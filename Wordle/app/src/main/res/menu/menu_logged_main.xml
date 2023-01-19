@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_Main"
+        android:title="Return to main menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/main"
+        />
+    <item
+        android:id="@+id/action_Modes"
+        android:title="Modes"
+        android:orderInCategory="200"
+        />
+    <item
+        android:id="@+id/action_EditUser"
+        android:title="Edit User"
+        android:orderInCategory="300"
+        />
+
+    <item
+        android:id="@+id/action_Settings"
+        android:title="Settings"
+        android:orderInCategory="400"
+        android:icon="@drawable/settings"
+        />
+    <item
+        android:id="@+id/action_LogOut"
+        android:title="Log Out"
+        android:orderInCategory="500"
+        android:icon="@drawable/credits"
+        />
+</menu>

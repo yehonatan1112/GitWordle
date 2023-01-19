@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="10dp"
+    tools:context=".SignUp">
+    <TextView
+        android:id="@+id/texttitle"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Please enter the details below"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/firstname"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttitle"
+        android:layout_marginTop="70dp"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastname"
+        android:hint="Email"
+        android:textColor="@color/textColor"
+        android:inputType="textWebEmailAddress"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:hint="ID"
+        android:textColor="@color/textColor"
+        android:inputType="number"
+        android:textSize="24dp" />
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:backgroundTint="@color/ButtonBgColor"
+        android:textColor="@color/ButtonTextColor"
+        android:layout_marginTop="70dp"
+        android:text="Sign Up"
+        app:strokeColor="@color/ButtonMainStroke"
+        android:textSize="24dp" />
+
+</RelativeLayout>

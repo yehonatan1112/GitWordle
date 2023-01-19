@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Wordle.iml" filepath="$PROJECT_DIR$/.idea/Wordle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Wordle.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Wordle.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Wordle.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Wordle.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Wordle.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Wordle.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Wordle.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Wordle.app.unitTest.iml" />
     </modules>
   </component>
 </project>

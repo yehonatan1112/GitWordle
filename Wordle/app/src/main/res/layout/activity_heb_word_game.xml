@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundColor"
+    android:layout_height="match_parent"
+    tools:context=".HebWordGame">
+    <FrameLayout
+        android:id="@+id/frm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+    </FrameLayout>
+    <TextView
+        android:id="@+id/Correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="50px"
+        android:fontFamily="casual"
+        android:layout_marginBottom="465dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/Guess"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:hint="Guess One Word"
+        android:supportsRtl="true"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:selectAllOnFocus="true"
+        android:textSize="20dp"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Guess"
+        android:backgroundTint="@color/ButtonBgColor"
+        android:textColor="@color/ButtonTextColor"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="150dp"
+        android:text="Guess"
+        app:strokeColor="@color/ButtonMainStroke"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
